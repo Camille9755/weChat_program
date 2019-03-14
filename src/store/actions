@@ -1,0 +1,12 @@
+import {RECEIVE_LIST,RECEIVE_MOVIES_ARR} from './mutation-types'
+import {list_data} from '../datas/list-data'
+
+export default {
+  getListTmp({commit}){
+    commit(RECEIVE_LIST,list_data)
+  },
+  getMoviesArr({commit},moviesArr){
+    console.log('action',moviesArr)
+    commit(RECEIVE_MOVIES_ARR,moviesArr)
+  }
+}

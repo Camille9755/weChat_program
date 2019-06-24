@@ -1,6 +1,7 @@
 # mie-project
 
 > A Mpvue project
+> mpVue实现的微信小程序：获得用户授权，信息展示，电影频道等功能  
 
 ## Build Setup
 
